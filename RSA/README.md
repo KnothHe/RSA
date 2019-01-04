@@ -8,15 +8,15 @@
 
 # First of all
 
-This is my operating system curriculum design, I write it just because I have to 
-choose one topic to write. So I chosen the topic is an analog implementation of 
-a public encryption algorithm. I do know that there is no difficulty, but there
+This is my operating system curriculum design, I wrote it just because I have to 
+chose one topic to wrote. So I chose the topic is an analog implementation of a 
+public encryption algorithm. I do know that there is no difficulty, but there
 is no difficulty in other topics. It's here for the convenience of those who
-want to know hwo RSA works.
+want to know how RSA(encryption algorithm) works.
 
 # Operation
 
-See the [wiki](https://www.wikiwand.com/simple/RSA_algorithm) for details.
+See the [wiki](https://en.wikipedia.org/wiki/RSA_cryptosystem) for details.
 
 In simple terms, there are five steps that require generating three numbers.
 
@@ -32,7 +32,7 @@ $$
 
 4. Generate a number $e$ and $e$ is coprime to $r$, and $1 < e < r$.
 
-5. Generate a number $d$ and $ed \equiv 1 (\mod n)$, which means $(ed - 1) \mod n = 0$, d is the [modular multiplicative inverse](https://www.wikiwand.com/en/Modular_multiplicative_inverse) of $e$ about $n$.
+5. Generate a number $d$ and $ed \equiv 1 (\mod n)$, which means $(ed - 1) \mod n = 0$, d is the [modular multiplicative inverse](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse) of $e$ about $n$.
 
 Then $(n, e)$ is public key, and $(n, d)$ is private key.
 
@@ -61,10 +61,10 @@ $$
 
 See those links.
 
-1. For testing if a integer is a prime, see [Fermat's little theorem](https://www.wikiwand.com/en/Fermat%27s_little_theorem)
+1. For testing if a integer is a prime, see [Fermat's little theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)
 
-2. For calculating modular multiplicative inverse of $e$ about $r$, see [extended Euclidean algorithm](https://www.wikiwand.com/en/Extended_Euclidean_algorithm)
+2. For calculating modular multiplicative inverse of $e$ about $r$, see [extended Euclidean algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm)
 
-3. For calculating modulo operation of high-order of large integer, see [Montgomery modular multiplication](https://www.wikiwand.com/en/Montgomery_modular_multiplication)
+3. For calculating modulo operation of high-order of large integer, see [Montgomery modular multiplication](https://en.wikipedia.org/wiki/Montgomery_modular_multiplication)
 
 Other algorithm may also works.
