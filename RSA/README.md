@@ -67,4 +67,4 @@ See those links.
 
 3. For calculating modulo operation of high-order of large integer, see [Montgomery modular multiplication](https://en.wikipedia.org/wiki/Montgomery_modular_multiplication)
 
-Other algorithm may also works.
+Other algorithms may also work.

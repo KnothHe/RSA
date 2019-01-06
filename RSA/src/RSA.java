@@ -73,7 +73,6 @@ public class RSA {
         for (int i = 0; i < maxComLen && !b.equals(BigInteger.ZERO); i++) {
             BigInteger single = b.mod(BigInteger.valueOf(MULTIPLE));
             b = b.divide(BigInteger.valueOf(MULTIPLE));
-//            System.out.println(single);
             rst.insert(0, (char) Integer.parseInt(single.toString()));
         }
         return rst.toString();
