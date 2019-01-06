@@ -121,8 +121,8 @@ public class Window extends JFrame {
         centerPanel.add(encodePanel);
         centerPanel.add(decodePanel);
 
-        GridLayout RightLayout = new GridLayout(1, 3);
-        JPanel bottomPanel = new JPanel(RightLayout);
+        GridLayout bottomLayout = new GridLayout(1, 3);
+        JPanel bottomPanel = new JPanel(bottomLayout);
         bottomPanel.add(newKeyButton);
         bottomPanel.add(encodeButton);
         bottomPanel.add(decodeButton);
